@@ -4,7 +4,7 @@ test('2 + 3 = 5', ()=>{
   expect(math.add(2,3)).toBe(5);
 });
 
-teste('500 + 500 = 1000', ()=>{
+test('500 + 500 = 1000', ()=>{
   expect(math.add(500, 500)).toBe(100)
 });
 
