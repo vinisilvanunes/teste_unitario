@@ -61,5 +61,5 @@ test('9 / 9 = 1', ()=>{
 });
 
 test('1 / 4  = 0.25', ()=>{
-  expect(math.subtract(1,4)).toBe(0.25);
+  expect(math.divide(1,4)).toBe(0.25);
 });
